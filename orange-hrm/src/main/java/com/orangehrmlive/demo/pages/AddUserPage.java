@@ -106,16 +106,16 @@ public class AddUserPage extends Utility {
     public void explicitWait(int time) {
         waitUntilVisibilityOfElementLocated(By.className("ico-login"), time);
     }
-    public void addToUser(String name, String username, String password, String cPassword) throws InterruptedException {
-        openDropdownForUsrRole();
-        clickOnAdminRoleDropDown();
-        setEmployeeNameField(name);
-        selectEmployeeName();
-        setUsername(username);
-        clickDropdownStatus();
-        setSelectDisabled();
-        setEnterPassword(password);
-        setConfirmPassword(cPassword);
-        setClickOnSaveBtn();
-    }
+//    public void addToUser(String name, String username, String password, String cPassword) throws InterruptedException {
+//        openDropdownForUsrRole();
+//        clickOnAdminRoleDropDown();
+//        setEmployeeNameField(name);
+//        selectEmployeeName();
+//        setUsername(username);
+//        clickDropdownStatus();
+//        setSelectDisabled();
+//        setEnterPassword(password);
+//        setConfirmPassword(cPassword);
+//        setClickOnSaveBtn();
+//    }
 }

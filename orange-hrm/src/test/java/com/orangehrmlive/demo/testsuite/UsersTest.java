@@ -22,7 +22,7 @@ public class UsersTest extends BaseTest {
 
     ViewSystemUsersPage viewSystemUsersPage;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void inIt() {
         loginPage = new LoginPage();
         dashboardPage = new DashboardPage();

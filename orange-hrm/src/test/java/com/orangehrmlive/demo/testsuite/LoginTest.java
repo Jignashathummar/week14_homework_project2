@@ -17,7 +17,7 @@ public class LoginTest extends BaseTest {
     DashboardPage dashboardPage;
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void inIt() {
         loginPage = new LoginPage();
         dashboardPage = new DashboardPage();
